@@ -1,0 +1,77 @@
+body {
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+	margin:0;
+	font-size:82.5%;
+	background:#ececec;
+	color:#212121;
+}
+div.nav {
+	position:fixed;
+	top:0;
+	background:#4285f4;
+	height:56px;
+	width:100%;
+	box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+div.nav div.left {
+	position:absolute;
+	height:100%;
+	display:flex;
+}
+div.nav div.right {
+	position:absolute;
+	right:0;
+	width:150px;
+	height:100%;
+	display:flex;
+}
+span.options {
+	background-image:url(https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/1x/ic_menu_wht_1x.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size:24px;
+	display:inline-block;
+	height:24px;
+	opacity:0.75;
+	padding:16px 24px;
+	width:24px;
+}
+span.options:hover {
+	opacity:1;
+}
+div.title,
+div.user {
+	color:#fff;
+	margin:auto 0;
+	position:relative;
+}
+div.title span {
+	font-size:1.5em;
+}
+div.body {
+	position:relative;
+	top:56px;
+	width:100%;
+}
+div.books,
+div.films {
+	width:50%;
+	position:absolute;
+	display:flex;
+	height:400px;
+}
+div.films {
+	right:0;
+}
+div.books div.data,
+div.films div.data {
+	background:#fff;
+	margin:20px;
+	box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+	width:100%;
+}
+div.books span.title,
+div.films span.title {
+	position:absolute;
+	padding-left:20px;
+}

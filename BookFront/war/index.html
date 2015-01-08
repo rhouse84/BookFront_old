@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="utf-8">
+    <title>My Books</title>
+	<link rel="stylesheet" href="/css/front.css">
+</head>
+<body>
+ 	<div class='nav'>
+ 		<div class='left'>
+ 			<span class='options'></span>
+ 			<div class='title'>
+ 				<span>Books and Films</span>
+ 			</div>
+ 		</div>
+ 		<div class='right'>
+ 			<div class='user'>
+	 			<span>User Picture Here</span>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class='body' ng-cloak>
+		<p>Nothing here {{'yet' + '!'}}</p>
+		<p>1 + 2 = {{ 1 + 2 }}</p>
+		<div class='books'>
+			<span class='title'>Recent Books</span>
+			<div class='data'>
+			</div>
+		</div>
+		<div class='films'>
+			<span class='title'>Recent Films</span>
+			<div class='data'>
+			</div>
+		</div>
+ 	</div>
+	<div class='footer'>
+	</div>
+	<script src="/js/angular.min.js"></script>
+	<script src="/js/front.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+</body>
+</html>
